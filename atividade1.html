@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Atividade 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><!--carregar o CSS-->
+    <style>
+        .tab-content {
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+        }
+        .tab-pane {
+            margin-top: 10px;
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 150%;
+        }
+        .header {
+            text-align: right;
+            margin-bottom: 50px;
+        }
+        .sobre-mim {
+                padding: 50px;
+                color: black;
+                width: 50%;              
+                height: 150px;
+                float: right;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="sobre-mim">
+        <p><h4 style="font-weight: bold">Redes Sociais:</h4></p> 
+        <a href="https://www.instagram.com/biabanaletti/" target="_blank">Instagram</a> -
+        <a href="https://www.facebook.com/profile.php?id=100006209568942" target="_blank">Facebook</a> -
+        <a href="https://br.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">Linkedin</a>
+        <br>
+        <br>
+        <br>
+        <label id="lblsobremim" for="sobremim"><h3 style="font-weight: bold">Sobre Mim: </h3><label>
+        <p><span style="font-weight: bold;">Meu nome é Bianca e tenho 18 anos.</span> Morei grande parte da minha vida na Fazenda Annoni e estudei até o 7° ano na Escola Estadual de Ensino Fundamental 29 de Outubro. Fiz o 8° e 9° ano na escola Estadual de Ensino Fundamental Pe. Manoel Gonzales, em Sarandi, cidade que estou morando nos dias de hoje. Completei o Ensino Médio na Escola Estadual de Ensino Médio Dr. Aldo conte, na qual me formei em 2023.<span style="font-weight: bold;"> Nesse meio tempo iniciei um curso de Língua Inglesa e trabalhei por 7 meses na empresa SLC Máquinas John Deere como Auxiliar Administrativa (Jovem Aprendiz), tendo também que fazer um curso administrativo do Ciee.</span></p>
+        <p><span style="font-weight: bold;">Sou muito prestativa, dedicada e esforçada, sempre tentando fazer o melhor para alcançar meus objetivos e metas.</span> Gosto de ajudar as pessoas, fazer amizades e sempre estou disposta a ouvir o que as outras pessoas têm a dizer.</p>
+        <p>No meu tempo de lazer gosto de sair com a minha família e amigos, jogar e assistir filmes/séries. Também gosto de viajar e conhecer novos lugares.</p> 
+    </div>
+
+<div class="container mt-5">
+    <div class="lang">
+        <img src="eu.jpg" alt="Foto de perfil" class="profile-img">
+        <h1>Bianca Banaletti</h1>
+        <p>Estudante de Ciência da Computação</p>
+        <p>E-mail: biancabanaletti.pf009@academico.ifsul.edu.br</p>
+        <p>Telefone para Contato: (54) 9 8447-5655</p>
+    </div>
+
+    <ul class="nav flex-column"><!--deixar na vertical-->
+        <li class="nav-item"><!--mostrar os itens-->
+            <a class="nav-link active" data-toggle="tab" href="#dados-cadastrais">Dados Cadastrais</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#formacao">Formação</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#experiencia">Experiência Profissional</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#cursos">Cursos Complementares</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#idiomas">Idiomas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#habilidades">Habilidades</a>
+        </li>
+        <br>
+    </ul>
+
+    <div class="tab-content">
+        <div id="dados-cadastrais" class="tab-pane fade show active"><!--controlar as abas-->
+            <h5>Dados Cadastrais</h5>
+            <p><strong>Nome:</strong> Bianca Banaletti</p>
+            <p><strong>Data de Nascimento:</strong> 31/10/2005</p>
+            <p><strong>Endereço:</strong> Rua Demétrio Rech - 697 | Sarandi/RS</p>
+            <p><strong>Cep:</strong> 99560-000</p>
+        </div>
+
+        <div id="formacao" class="tab-pane fade"><!--contém o conteúdo das abas-->
+            <h5>Formação</h5>
+            <ol>
+                <li>Ensino Médio Completo na Escola Estadual Dr. Aldo Conte</li>
+                <li>Curso de Língua Estrangeira</li>
+            </ol>
+        </div>
+
+        <div id="experiencia" class="tab-pane fade">
+            <h5>Experiência Profissional</h5>
+            <ul>
+                <li><strong>Jovem Aprendiz</strong> - Empresa SLC Máquinas John Deere
+                    <p>Auxiliar Administrativo - Trabalhei por: 7 meses</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="cursos" class="tab-pane fade">
+            <h5>Cursos Complementares</h5>
+            <ul>
+                <li>Curso de Idiomas</li>
+                <li>Curso de Informática</li>
+                <li>Curso de Administração</li>
+            </ul>
+        </div>
+
+        <div id="idiomas" class="tab-pane fade">
+            <h5>Idiomas</h5>
+            <ul>
+                <li>Português - Nativa</li>
+                <li>Inglês - Intermediário</li>
+            </ul>
+        </div>
+
+        <div id="habilidades" class="tab-pane fade">
+            <h5>Habilidades</h5>
+            <ul>
+                <li>HTML</li>
+                <li>C++</li>
+            </ul>
+            </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script><!--scripts para funcionar e habilitar-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
